@@ -1,0 +1,36 @@
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.562);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#choices {
+  margin: 10px 0;
+}
+
+.choice-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choice-btn:hover {
+  background-color: #0056b3;
+}
+
+#score {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
